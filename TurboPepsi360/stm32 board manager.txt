@@ -1,0 +1,19 @@
+1- Launch Arduino.cc IDE. Click on "File" menu and then "Preferences".
+
+The "Preferences" dialog will open, then add the following link to the "Additional Boards Managers URLs" field:
+
+"http://dan.drown.org/stm32duino/package_STM32duino_index.json"
+
+Click "Ok"
+
+2- Click on "Tools" menu and then "Boards > Boards Manager"
+
+The board manager will open and you will see a list of installed and available boards.
+
+Select the "STM32 F103Cxxx" and click on install.
+
+After installation is complete an "INSTALLED" tag appears next to the core name.
+
+You can close the Board Manager.
+
+Now you can find the STM32 boards package in the "Board" menu.
